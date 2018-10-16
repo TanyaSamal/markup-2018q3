@@ -1,0 +1,41 @@
+nav{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    height: 89px;
+    align-items: center;
+}
+
+.nav-menu li{
+    padding: 30px 0px 30px 60px;
+}
+
+.nav-menu li a{
+    color: white;
+    position: relative;
+}
+
+.nav-menu li a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 1px;
+    opacity: 0;
+    width: 100%;
+    background-color: white;
+    transition: opacity .3s ease-in-out, top .3s ease-out;
+    top: 16px;
+}
+
+.nav-menu li a:hover:after{
+    top: 50px;
+    opacity: 1;
+}
