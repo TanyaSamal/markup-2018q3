@@ -7,23 +7,33 @@ nav{
     align-items: center;
 }
 
-.nav-menu{
+nav::after {
+    display: block;
+    position: absolute;
+    content: "";
+    opacity: 0.15;
+    width: 1200px;
+    top: 89px;
+    border-bottom: 1px solid #cdc7c3;
+}
+
+.nav-menu {
     display: flex;
     list-style-type: none;
     height: 89px;
     align-items: center;
 }
 
-.nav-menu li{
+.nav-menu li {
     padding: 30px 0px 30px 60px;
 }
 
-.nav-menu li a{
+.nav-menu li a {
     color: white;
     position: relative;
 }
 
-.nav-menu li a:after {
+.nav-menu li a::after {
     display: block;
     position: absolute;
     content: "";
@@ -35,7 +45,7 @@ nav{
     top: 16px;
 }
 
-.nav-menu li a:hover:after{
-    top: 50px;
+.nav-menu li a:hover::after {
+    top: 55px;
     opacity: 1;
 }
