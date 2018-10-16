@@ -1,5 +1,4 @@
-nav{
-    margin: 0 auto;
+.nav{
     position: absolute;
     width: 100%;
     display: flex;
@@ -7,12 +6,12 @@ nav{
     align-items: center;
 }
 
-nav::after {
+.nav::after {
     display: block;
     position: absolute;
     content: "";
     opacity: 0.15;
-    width: 1200px;
+    width: 1210px;
     top: 89px;
     border-bottom: 1px solid #cdc7c3;
 }
@@ -25,7 +24,11 @@ nav::after {
 }
 
 .nav-menu li {
-    padding: 30px 0px 30px 60px;
+    padding: 30px 0px 30px 70px;
+}
+
+.nav-menu li:first-child {
+    padding-left: 32px;
 }
 
 .nav-menu li a {
