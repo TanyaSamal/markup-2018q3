@@ -1,0 +1,114 @@
+.domain {
+    background: white;
+    padding: 90px 0;
+}
+
+.domain .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.domain-title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #383737;
+    margin-bottom: 26px;
+}
+
+.domain p {
+    color: #a2a2a2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 49px;
+    letter-spacing: -0.1px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 884px;
+    margin: 0 auto 40px;
+    padding: 9px 0 9px 9px;
+    border: 1px solid #cdc7c3;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    width: 86%;
+    border-right: 1px solid #cdc7c3;
+    border-left: 1px solid #cdc7c3;
+}
+
+.input-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0 10px 15px;
+    color: #868686;
+    font-size: 15px;
+}
+
+.input-field:focus::-webkit-input-placeholder { color:transparent; transition: color 0.3s ease;}
+.input-field:focus:-moz-placeholder { color:transparent; transition: color 0.3s ease;}
+.input-field:focus::-moz-placeholder { color:transparent; transition: color 0.3s ease;}
+.input-field:focus:-ms-input-placeholder { color:transparent; transition: color 0.3s ease;}
+
+.www {
+    display: flex;
+    justify-content: center;
+    width: 7%;
+    color: #cdc7c3;
+}
+
+.zone {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.select {
+    /*border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%; 
+    font-size: 16px;
+    padding-left: 11px;*/
+    background: url(../img/domain-bg.png);
+    color: #cdc7c3;
+    width: 100%;
+    padding-left: 16px;
+    position: relative;
+}
+
+.select > ul { 
+    display: none; 
+}
+
+.select:hover > ul {
+    display: block; 
+    background: white; 
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.select > ul > li { 
+    padding: 10px 0 10px 16px;
+    border: 1px solid #cdc7c3;
+}
+
+.select > ul > li:first-child { 
+    border-bottom: 0px;
+}
+
+.select > ul > li:hover { 
+    color: #5c5c5c; 
+    background: #ececec;
+}
+
+  
