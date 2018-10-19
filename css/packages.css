@@ -13,7 +13,7 @@
 .packages-block {
     display: flex;
     justify-content: space-around;
-    margin: -285px 180px 80px;
+    margin: -285px 180px 102px;
 }
 
 .package-item {
@@ -28,6 +28,7 @@
 
 .package-item:hover {
     box-shadow: 0 0 20px #f9d524;
+    transition: box-shadow .7s ease-out;
 }
 
 .package-item.gray:hover {
@@ -212,8 +213,4 @@
 
 .pack-plan {
     padding-top: 16px;
-}
-
-.border {
-    border: 1px dotted #cdc7c3;
 }

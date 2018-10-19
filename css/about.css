@@ -1,0 +1,92 @@
+.about {
+    padding: 0 200px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    border-top: 1px dotted #cdc7c3;
+    padding: 103px 0;
+}
+
+.about-text {
+    width: 36%;
+    color: #747474;
+    font-size: 17px;
+    border-right: 1px dotted #cdc7c3;
+    padding-right: 100px;
+}
+
+.about-text  h2 {
+    font-size: 35px;
+    color: #303030;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    text-align: justify;
+    line-height: 28px;
+}
+
+.team {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-photo {
+    border: 5px solid #cdc7c3;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.member-profession {
+    color: #8e8e8e;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.member-socials {
+    position: relative;
+}
+
+i {
+    width: 20px;
+    height: 20px; 
+    background-image: url("../img/sprite.png");
+    position: absolute;
+}
+
+.soc-fb {
+    background-position: 0 -100px;
+    left: -50px;
+}
+
+.soc-tw {
+    background-position: 0 -120px;
+    left: -10px;
+}
+
+.soc-link { 
+    background-position: 0 -80px;
+    left: 30px;
+}
+
+i:hover {
+    filter: sepia(1000%) contrast(30%) saturate(600%) hue-rotate(160deg);
+}
