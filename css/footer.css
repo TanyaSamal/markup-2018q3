@@ -1,0 +1,140 @@
+.footer {
+    background-color: #2a2a2a;
+    color: #686868;
+    font-size: 15px;
+    height: 296px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 200px 0 200px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #4a4a4a; 
+}
+
+.foot-menu {
+    display: flex;
+}
+
+.foot-menu li {
+    margin: 0 24px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.foot-menu li:last-child {
+    margin-right: 0;
+}
+
+.foot-menu li a{
+    color: #686868;
+    transition: .5s all;
+}
+
+.foot-menu li a:hover{
+    color: white;
+}
+
+.foot-content {
+    display: flex;
+    padding: 30px 200px;
+}
+
+.block {
+    width: 30%;
+}
+
+.block.text {
+    width: 302px;
+    padding: 12px 80px 0 0;
+}
+
+.text {
+    line-height: 28px;
+}
+
+.copy {
+    padding-top: 12px;
+}
+
+.block.links {
+    display: flex;
+    justify-content: space-between;
+    width: 398px;
+    padding: 0 55px;
+    border-right: 1px solid #4a4a4a;
+    border-left: 1px solid #4a4a4a;
+}
+
+.block.links ul{
+    padding-right: 5px;
+}
+
+.block.links ul:first-child{
+    padding-left: 45px;
+}
+
+.foot-links {
+    width: 160px;
+    padding: 18px 0;
+}
+
+.foot-links li{
+    display: inline-block;
+    padding: 7px;
+}
+
+.foot-links li a{ 
+    margin-left: 5px;
+    color: #686868;
+}
+
+.foot-links li:hover{ 
+    color: white;
+    transition: .5s all;
+}
+
+.foot-links li a:hover{ 
+    display: inline-block;
+    padding-left: 10px;
+    color: white;
+    transition: .5s all;
+}
+
+.contact {
+    width: 235px;
+    padding: 3px 0 0 82px;
+}
+
+.mail a, 
+.phone a {
+    color: #686868;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.contact a::before {
+    display: block;
+    position: relative;
+    content: "";
+    background-image: url("../img/sprite.png");
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    top: 17px;
+}
+
+.mail a::before {
+    background-position: 0 -380px;
+}
+
+.phone a::before {
+    background-position: 0 -400px;
+}
+
+.address {
+    padding-top: 5px;
+    line-height: 30px;
+}

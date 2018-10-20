@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 342px;
-    padding: 18px 150px;
+    height: 313px;
+    padding: 30px 150px 5px 150px;
 }
 
 .advantage {
