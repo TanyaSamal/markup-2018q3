@@ -1,0 +1,62 @@
+.adv-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 342px;
+    padding: 18px 150px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+}
+
+.adv-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.adv-title::before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.adv-title.bolt::before {
+    background-color: #f1c40f;
+    background-position: 0 -140px;
+}
+
+.adv-title.cloud::before {
+    background-color: #0faff1;
+    background-position: 0 -200px;
+    left: 25px;
+}
+
+.adv-title.arrow::before {
+    background-color: #95a5a6;
+    background-position: 0 -260px;
+    left: 34px;
+}
+
+.adv-title.chat::before {
+    background-color: #f1540f;
+    background-position: 0 -320px;
+}
+
+
+.advantage p {
+    text-align: center;
+    line-height: 22px;
+    color: #7e7e7e;
+}
