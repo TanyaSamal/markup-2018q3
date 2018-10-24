@@ -1,5 +1,6 @@
 .auth {
     display: flex;
+    background-color: #21424a;
 }
 
 .auth a {

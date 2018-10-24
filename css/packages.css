@@ -1,5 +1,6 @@
 .packages {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
@@ -12,6 +13,7 @@
 
 .packages-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: -285px 180px 102px;
 }
@@ -20,6 +22,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    min-width: 150px;
     width: 18%;
     padding: 20px;
     background: white;
@@ -114,8 +117,8 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 60px;
-    left: 122px;
+    top: 10%;
+    left: 46%;
 }
 
 .anchor-gray {
