@@ -56,3 +56,9 @@
 .slide-hidden {
     display: none;
 }
+
+@media (max-width: 620px) {
+    .slide {
+        width: 100%;
+    }
+}

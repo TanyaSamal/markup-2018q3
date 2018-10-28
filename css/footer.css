@@ -16,6 +16,7 @@
 
 .foot-menu {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .foot-menu li {
@@ -138,4 +139,35 @@
 .address {
     padding-top: 5px;
     line-height: 30px;
+}
+
+@media (max-width: 650px) {
+    .foot-nav {
+        margin: 20px 20px;
+        padding-bottom: 7px;
+    }
+
+    .foot-menu li {
+        padding: 10px 0;
+    }
+
+    .foot-content {
+        padding: 0 20px;
+    }
+
+    .block.text {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .block.links {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .block.contact {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
 }

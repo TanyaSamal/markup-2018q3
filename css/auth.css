@@ -44,3 +44,25 @@
 .auth-reg:hover {
     background-color: #088645;
 }
+
+@media (max-width: 620px) {
+    .auth-reg {
+        width: 52%;
+    }
+
+    .auth-login {
+        transform: skew(-4.5deg) translateX(5px);
+    }
+
+    .auth a.login {
+        transform: skew(4.5deg);
+    }
+
+    .auth a.register {
+        margin: 0;
+    }
+
+    .auth a.login {
+        margin: 0;
+    }
+}

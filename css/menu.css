@@ -19,6 +19,7 @@
 
 .nav-menu {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     height: 89px;
     align-items: center;
@@ -52,4 +53,10 @@
 .nav-menu li a:hover::after {
     top: 55px;
     opacity: 1;
+}
+
+@media (max-width: 620px) {
+    .nav::after {
+        border: none;
+    }
 }

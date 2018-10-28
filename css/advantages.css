@@ -83,3 +83,9 @@
     line-height: 22px;
     color: #7e7e7e;
 }
+
+@media (max-width: 620px) {
+    .adv-content {
+        padding: 0;
+    }
+}

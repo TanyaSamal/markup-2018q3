@@ -120,7 +120,8 @@
     border: 1px solid #cdc7c3;
     color: #cdc7c3;
     font-size: 14px;
-    width: 890px;
+    display: table;
+    table-layout: fixed;
 }
 
 .table-row.one {
@@ -138,12 +139,10 @@
 
 .table-cell {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 35px 0;
-    width: 25%; 
+    display: table-cell;
+    padding: 35px 72px;
+    white-space: nowrap;    
+    width: 8%; 
 }
 
 .top::after {
@@ -180,4 +179,43 @@
     transition: color 0.5s ease, background 0.5s ease;
     color: #5c5c5c; 
     background: #ececec;
+}
+
+@media (min-width: 500px) and (max-width: 620px) {
+    .table-row {
+        font-size: 12px;
+        margin: 10px;
+    }
+    
+    .table-cell {
+        padding: 30px 30px;
+        width: 13%;
+    }
+
+    .input {
+        width: 470px;
+    }
+
+    .www {
+        width: 10%;
+    }
+
+    .zone {
+        width: 15%;
+    }
+}
+
+@media (max-width: 500px){
+
+    .domain {
+        padding: 20px;
+    }
+    
+    .input {
+        display: none;
+    }
+
+    .domain-table {
+        display: none;
+    }
 }
