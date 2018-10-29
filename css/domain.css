@@ -90,7 +90,8 @@
 }
 
 .select > ul { 
-    display: none; 
+    display: none;
+    list-style: none; 
 }
 
 .select:hover > ul {

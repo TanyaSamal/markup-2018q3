@@ -40,7 +40,7 @@
 
 .foot-content {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 30px 200px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .block.text {
-    width: 302px;
+    width: 25%;
     word-spacing: 1px;
     padding: 16px 80px 0 0;
 }
@@ -67,23 +67,14 @@
 
 .block.links {
     display: flex;
-    justify-content: space-between;
-    width: 398px;
-    padding: 0 55px;
+    justify-content: space-around;
+    padding: 0 70px;
     border-right: 1px solid #4a4a4a;
     border-left: 1px solid #4a4a4a;
 }
 
 .block.links ul{
-    padding-right: 5px;
-}
-
-.block.links ul:first-child{
-    padding-left: 45px;
-}
-
-.foot-links {
-    width: 160px;
+    display: grid;
     padding: 18px 0;
 }
 
@@ -110,8 +101,8 @@
 }
 
 .contact {
-    width: 235px;
-    padding: 3px 0 0 82px;
+    width: 20%;
+    padding: 3px 0 0 75px;
 }
 
 .mail a, 

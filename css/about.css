@@ -94,6 +94,21 @@ i:hover {
     filter: sepia(1000%) contrast(30%) saturate(600%) hue-rotate(160deg);
 }
 
+@supports (-ms-ime-align: auto) {
+    .team{
+        width: 45%;
+    }
+
+    .auth-login {
+        transform: skew(-11.5deg) scaleX(1.04) translateY(-1px);
+    }    
+
+    .auth a.login {
+        transform: skew(11.5deg) scaleX(0.96);
+    }
+    
+}
+
 @media (max-width: 620px) {
     .about {
         padding: 0;
