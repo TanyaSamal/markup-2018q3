@@ -1,17 +1,16 @@
 .about {
-    padding: 0 200px;
+    padding: 0 202px;
 }
 
 .about-content {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     border-top: 1px dotted #cdc7c3;
     padding: 103px 0;
 }
 
 .about-text {
-    width: 36%;
+    width: 35%;
     color: #747474;
     font-size: 17px;
     border-right: 1px dotted #cdc7c3;
@@ -20,9 +19,10 @@
 
 .about-text  h2 {
     font-size: 35px;
+    letter-spacing: 1px;
     color: #303030;
     font-weight: normal;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .about-text p {
@@ -33,9 +33,10 @@
 .team {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;
+    width: 47%;
     justify-content: space-between;
-    padding-left: 100px;
+    padding-left: 102px;
+    padding-top: 5px;
 }
 
 .team-member {
@@ -49,7 +50,7 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .member-name {
@@ -76,17 +77,17 @@ i {
 
 .soc-fb {
     background-position: 0 -100px;
-    left: -50px;
+    left: -51px;
 }
 
 .soc-tw {
     background-position: 0 -120px;
-    left: -10px;
+    left: -14px;
 }
 
 .soc-link { 
     background-position: 0 -80px;
-    left: 30px;
+    left: 23px;
 }
 
 i:hover {

@@ -1,6 +1,6 @@
 .domain {
     background: white;
-    padding: 90px 0;
+    padding: 88px 0 91px 0;
 }
 
 .domain .content {
@@ -45,7 +45,7 @@
     width: 100%;
     border: none;
     outline: none;
-    padding: 10px 0 10px 15px;
+    padding: 10px 0 10px 17px;
     color: #868686;
     font-size: 15px;
 }
@@ -116,7 +116,7 @@
     background: #ececec;
 }
 
-.domain-table{
+.domain-table {
     border: 1px solid #cdc7c3;
     color: #cdc7c3;
     font-size: 14px;
@@ -134,7 +134,7 @@
 
 .table-row {
     display: flex;
-    margin: 14px 32px;
+    margin: 14px 34px;
 }
 
 .table-cell {
