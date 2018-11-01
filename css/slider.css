@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../img/comments-bg.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.83), rgba(0,0,0,0.83)), url('../img/comments-bg.jpg');
     background-position: 0 -435px;
-    height: 192px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 190px;
     font-size: 20px;
     color: white;
 }
@@ -13,38 +14,39 @@
     width: 60%;
     opacity: 1;
     transition: opacity .5s ease-in-out;
+    margin-bottom: 5px;
 }
 
 .feddback {
     text-align: center;
     line-height: 30px;
-    letter-spacing: 0.1px;
 }
 
 .feddback-info {
     display: flex;
     justify-content: center;
+    margin-left: 8px;
 }
 
 .feddback-name {
     margin-top: 14px;
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 12px;
     border-right: 1px solid white; 
 }
 
 .slider-nav {
     display: inline-flex;
     align-items: center;
-    padding-left: 10px;
-    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-bottom: 5px;
 }
 
 .slider-icon {
     cursor: pointer;
     position: relative;
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     top: 10px;
     border: 1px solid white;
     border-radius: 50%;

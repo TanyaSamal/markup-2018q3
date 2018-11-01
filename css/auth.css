@@ -6,16 +6,18 @@
 .auth a {
     color: white;
     font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1px;
     text-transform: uppercase;
 }
 
 .auth a.login {
-    margin-left: 216px;
+    margin-left: 218px;
     transform: skew(11.5deg) scaleX(0.97);
 }
 
 .auth a.register {
-    margin-right: 184px;
+    margin-right: 181px;
 }
 
 .btn {

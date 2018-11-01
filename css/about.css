@@ -6,15 +6,16 @@
     display: flex;
     flex-wrap: wrap;
     border-top: 1px dotted #cdc7c3;
-    padding: 103px 0;
+    padding: 103px 0 102px 0;
 }
 
 .about-text {
-    width: 35%;
+    width: 43.4%;
     color: #747474;
     font-size: 17px;
     border-right: 1px dotted #cdc7c3;
     padding-right: 100px;
+    box-sizing: border-box;
 }
 
 .about-text  h2 {
@@ -27,16 +28,17 @@
 
 .about-text p {
     text-align: justify;
-    line-height: 28px;
+    line-height: 27.5px;
 }
 
 .team {
     display: flex;
     flex-wrap: wrap;
-    width: 47%;
+    width: 56%;
     justify-content: space-between;
     padding-left: 102px;
     padding-top: 5px;
+    box-sizing: border-box;
 }
 
 .team-member {
@@ -50,7 +52,7 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .member-name {
@@ -61,33 +63,30 @@
 .member-profession {
     color: #8e8e8e;
     font-size: 15px;
-    padding: 10px 0;
+    padding: 9px 0 10px 0;
 }
 
 .member-socials {
-    position: relative;
+    display: flex;
 }
 
 i {
     width: 20px;
     height: 20px; 
     background-image: url("../img/sprite.png");
-    position: absolute;
+    margin: 0 6px;
 }
 
 .soc-fb {
     background-position: 0 -100px;
-    left: -51px;
 }
 
 .soc-tw {
     background-position: 0 -120px;
-    left: -14px;
 }
 
 .soc-link { 
     background-position: 0 -80px;
-    left: 23px;
 }
 
 i:hover {
@@ -95,9 +94,6 @@ i:hover {
 }
 
 @supports (-ms-ime-align: auto) {
-    .team{
-        width: 45%;
-    }
 
     .auth-login {
         transform: skew(-11.5deg) scaleX(1.04) translateY(-1px);

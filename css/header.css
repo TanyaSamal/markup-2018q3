@@ -6,14 +6,14 @@ header {
     align-items: center;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.83), rgba(0,0,0,0.83)), url("../img/header-bg.jpg") no-repeat;
     background-size: cover;
-    height: 953px;
+    height: 944px;
     color: white;
 }
 
 .title {
-    font-size: 67px;
-    margin-top: 77px;
-    margin-bottom: 10px;
+    font-size: 66px;
+    margin-top: 80px;
+    margin-bottom: 8px;
     text-transform: uppercase;
 }
 

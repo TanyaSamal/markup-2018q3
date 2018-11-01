@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 22px 200px 0 200px;
-    padding-bottom: 27px;
+    padding-bottom: 22px;
     border-bottom: 1px solid #4a4a4a; 
 }
 
@@ -20,7 +20,7 @@
 }
 
 .foot-menu li {
-    margin: 0 24px;
+    margin: 0 23.5px;
     font-size: 13px;
     text-transform: uppercase;
 }
@@ -41,7 +41,7 @@
 .foot-content {
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px;
+    padding: 33px 200px 36px 200px;
 }
 
 .block {
@@ -49,12 +49,14 @@
 }
 
 .block.text {
-    width: 25%;
+    width: 374px;
     word-spacing: 1px;
-    padding: 16px 80px 0 0;
+    padding: 16px 50px 0 0;
+    box-sizing: border-box;
 }
 .block.text p {
     line-height: 27px;
+    letter-spacing: -0.1px;
 }
 
 .text {
@@ -67,10 +69,15 @@
 
 .block.links {
     display: flex;
-    justify-content: space-around;
-    padding: 0 70px;
+    justify-content: flex-end;;
+    padding: 0 72px;
     border-right: 1px solid #4a4a4a;
     border-left: 1px solid #4a4a4a;
+}
+
+.block.links div{
+    width: 145px;
+    padding-left: 28px;
 }
 
 .block.links ul{
@@ -84,25 +91,41 @@
 }
 
 .foot-links li a{ 
-    margin-left: 5px;
+    position: relative;
     color: #686868;
 }
 
-.foot-links li:hover{ 
-    color: white;
-    transition: .5s all;
+.foot-links li a::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 10px;
+    height: 14px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0 -417px;
+    left: -14px;
 }
 
-.foot-links li a:hover{ 
+.foot-links li:hover a{ 
     display: inline-block;
     padding-left: 10px;
-    color: white;
+    filter: brightness(200%);
     transition: .5s all;
 }
 
 .contact {
     width: 20%;
     padding: 3px 0 0 75px;
+}
+
+.phone {
+    padding-left: 3px;
+    margin-bottom: -3px;
+}
+
+.mail {
+    padding-left: 3px;
 }
 
 .mail a, 
@@ -124,6 +147,7 @@
     top: 17px;
 }
 
+
 .mail a::before {
     background-position: 0 -380px;
 }
@@ -133,8 +157,10 @@
 }
 
 .address {
-    padding-top: 5px;
+    padding-top: 7px;
     line-height: 30px;
+    letter-spacing: -0.1px;
+    padding-left: 4px;
 }
 
 @media (max-width: 650px) {
