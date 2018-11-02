@@ -16,7 +16,7 @@
 
 .adv-title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 6px;
 }
 
@@ -79,6 +79,7 @@
 
 
 .advantage p {
+    font-weight: 300;
     text-align: center;
     line-height: 22px;
     color: #7e7e7e;

@@ -11,16 +11,16 @@ header {
 }
 
 .title {
-    font-size: 66px;
-    margin-top: 80px;
-    margin-bottom: 8px;
+    font-family: 'Myriad Pro';
+    font-size: 72px;
+    margin-top: 78px;
+    margin-bottom: 3px;
     text-transform: uppercase;
 }
 
 .subtitle {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: normal;
-    font-style: italic;
     padding-top: 15px;
 }

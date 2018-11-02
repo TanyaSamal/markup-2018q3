@@ -5,8 +5,8 @@
 .about-content {
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px dotted #cdc7c3;
-    padding: 103px 0 102px 0;
+    border-top: 2px dotted #cdc7c3;
+    padding: 102px 0 102px 0;
 }
 
 .about-text {
@@ -20,13 +20,20 @@
 
 .about-text  h2 {
     font-size: 35px;
-    letter-spacing: 1px;
     color: #303030;
-    font-weight: normal;
     margin-bottom: 24px;
 }
 
+.about-h2 {
+    font-weight: 900;
+}
+
+.us-h2 {
+    font-weight: 600;
+}
+
 .about-text p {
+    font-weight: 100;
     text-align: justify;
     line-height: 27.5px;
 }
@@ -63,7 +70,7 @@
 .member-profession {
     color: #8e8e8e;
     font-size: 15px;
-    padding: 9px 0 10px 0;
+    padding: 9px 1px 10px 0;
 }
 
 .member-socials {

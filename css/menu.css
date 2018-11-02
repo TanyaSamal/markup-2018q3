@@ -23,6 +23,8 @@
 }
 
 .nav-menu {
+    font-weight: 500;
+    font-style: normal;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
