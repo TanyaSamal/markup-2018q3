@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.83), rgba(0,0,0,0.83)), url("../img/header-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 944px;
+    color: white;
+}
+
+.title {
+    font-family: 'Myriad Pro';
+    font-size: 72px;
+    margin-top: 78px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 15px;
+}

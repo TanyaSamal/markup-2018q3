@@ -1,0 +1,123 @@
+.about {
+    padding: 0 202px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px dotted #cdc7c3;
+    padding: 102px 0 102px 0;
+}
+
+.about-text {
+    width: 43.4%;
+    color: #747474;
+    font-size: 17px;
+    border-right: 1px dotted #cdc7c3;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.about-text  h2 {
+    font-size: 35px;
+    color: #303030;
+    margin-bottom: 24px;
+}
+
+.about-h2 {
+    font-weight: 900;
+}
+
+.us-h2 {
+    font-weight: 600;
+}
+
+.about-text p {
+    font-weight: 100;
+    text-align: justify;
+    line-height: 27.5px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    justify-content: space-between;
+    padding-left: 102px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-photo {
+    border: 5px solid #cdc7c3;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 14px;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.member-profession {
+    color: #8e8e8e;
+    font-size: 15px;
+    padding: 9px 1px 10px 0;
+}
+
+.member-socials {
+    display: flex;
+}
+
+i {
+    width: 20px;
+    height: 20px; 
+    background-image: url("../img/sprite.png");
+    margin: 0 6px;
+}
+
+.soc-fb {
+    background-position: 0 -100px;
+}
+
+.soc-tw {
+    background-position: 0 -120px;
+}
+
+.soc-link { 
+    background-position: 0 -80px;
+}
+
+i:hover {
+    filter: sepia(1000%) contrast(30%) saturate(600%) hue-rotate(160deg);
+}
+
+@supports (-ms-ime-align: auto) {
+
+    .auth-login {
+        transform: skew(-11.5deg) scaleX(1.04) translateY(-1px);
+    }    
+
+    .auth a.login {
+        transform: skew(11.5deg) scaleX(0.96);
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .about {
+        padding: 0;
+    }
+
+    .team-member{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,92 @@
+.adv-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px 25px 150px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    padding: 70px 0;
+}
+
+.adv-title {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.adv-title a {
+    display: inline-block;
+    color: black;
+    position: relative;
+}
+
+.adv-title a::after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    transition: width .3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.adv-title a:hover:after{
+    width: 100%;
+}
+
+.adv-title::before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    left: 20px;
+    top: -20px;
+}
+
+.adv-title.bolt::before {
+    background-color: #f1c40f;
+    background-position: 0 -140px;
+}
+
+.adv-title.cloud::before {
+    background-color: #0faff1;
+    background-position: 0 -200px;
+    left: 25px;
+}
+
+.adv-title.arrow::before {
+    background-color: #95a5a6;
+    background-position: 0 -260px;
+    left: 34px;
+}
+
+.adv-title.chat::before {
+    background-color: #f1540f;
+    background-position: 0 -320px;
+}
+
+
+.advantage p {
+    font-weight: 300;
+    text-align: center;
+    line-height: 22px;
+    color: #7e7e7e;
+}
+
+@media (max-width: 620px) {
+    .adv-content {
+        padding: 0;
+    }
+}
