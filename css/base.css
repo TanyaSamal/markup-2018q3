@@ -2,7 +2,6 @@ html, body {
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    min-width: 1600px;
 }
 
 a {
@@ -11,9 +10,13 @@ a {
 }
 
 .container {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     overflow: hidden;
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 1600px;
 }

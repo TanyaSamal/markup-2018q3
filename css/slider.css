@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.83), rgba(0,0,0,0.83)), url('../img/pattern.png'), url('../img/comments-bg.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url('../img/pattern.png'), url('../img/comments-bg.jpg');
     background-repeat: repeat, repeat, no-repeat;
     background-position: 0 -435px;
     height: 190px;
